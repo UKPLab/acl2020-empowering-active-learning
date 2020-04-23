@@ -42,7 +42,34 @@ For license information, please see the LICENSE and README files.
 * `results` &mdash; Result folder
 * `user_simulation` &mdash; Code the handing simulated learner models 
 
+## Setting up the experiments
+
+```python
+pip install -r requirements.txt
+```
 ## Running the experiments
+
+```python
+python train_model.py
+```
+### Parameters
+The code offers a range of parameters which can be set:
+`--train` &mdash; Path to the (initially unlabeled) training data.
+`--test` &mdash; Path to the test data.
+`--seed` &mdash; Random seed to use.
+`--epochs` &mdash; Number of epochs.
+`--init-weights` &mdash; Path to the initial model weights.
+`--best-model`  &mdash; Path to store best model on the validation set.
+`--sampling-strategy` &mdash; Sampling strategy: `random`, `uncertainty`, `user`, `combined`, or `tradeoff`
+`--user-static-class` &mdash; Learner proficiency for the static.
+`--user-step-size` &mdash; Step size t for the increasing or decreasing learner behavior. 
+`--user-strategy` &mdash; Learner behavior: `increasing` (motivated), `decreasing`, `interruped`, or `static`
+`--al-iterations` &mdash; Number of active learning iterations.
+`--history`  &mdash; Path to the active learning history; stores the user proficiency at each iteration and the individual gap predictions
+`--results`  &mdash; Path to the result file.
+`--uncertainty` &mdash; Parameter for selecting the uncertainty computation. Set to `softmax` for U_soft.
+`--lambda-schedule` &mdash; Schedule for an adaptive lambda. `None` (static lambda) or `root` for a decreasing lambda.
+
 
 
 <!--

@@ -82,6 +82,8 @@ The code offers a range of parameters which can be set:
 * Tested on 64-bit Linux versions
 -->
 
+## Citing the paper
+
 Please cite our paper as:
 ```
 @inproceedings{lee-etal-2020-empowering,

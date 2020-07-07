@@ -4,24 +4,6 @@
 
 Source code and user models from our experiments of our [ACL 2020 article](https://www.aclweb.org/anthology/2020.acl-main.390/). 
 
-Please cite our paper as:
-```
-@inproceedings{lee-etal-2020-empowering,
-    title = "{E}mpowering {A}ctive {L}earning to {J}ointly {O}ptimize {S}ystem and {U}ser {D}emands",
-    author = "Lee, Ji-Ung  and
-      Meyer, Christian M.  and
-      Gurevych, Iryna",
-    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
-    month = jul,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.acl-main.390",
-    pages = "4233--4247",
-}
-
-```
-
 > **Abstract:** Existing approaches to active learning maximize the system performance by sampling unlabeled instances for annotation that yield the most efficient training. However, when active learning is integrated with an end-user application, this can lead to frustration for participating users, as they spend time labeling instances that they would not otherwise be interested in reading. In this paper, we propose a new active learning approach that jointly optimizes the seemingly counteracting objectives of the active learning system (training efficiently) and the user (receiving useful instances). We study our approach in an educational application, which particularly benefits from this technique as the system needs to rapidly learn to predict the appropriateness of an exercise to a particular user, while the users should receive only exercises that match their skills. We evaluate multiple learning strategies and user types with data from real users and find that our joint approach better satisfies both objectives when alternative methods lead to many unsuitable exercises for end users.
 
 * **Contact person:** Ji-Ung Lee, lee@ukp.informatik.tu-darmstadt.de
@@ -100,4 +82,19 @@ The code offers a range of parameters which can be set:
 * Tested on 64-bit Linux versions
 -->
 
-
+Please cite our paper as:
+```
+@inproceedings{lee-etal-2020-empowering,
+    title = "{E}mpowering {A}ctive {L}earning to {J}ointly {O}ptimize {S}ystem and {U}ser {D}emands",
+    author = "Lee, Ji-Ung  and
+      Meyer, Christian M.  and
+      Gurevych, Iryna",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.390",
+    pages = "4233--4247",
+}
+```

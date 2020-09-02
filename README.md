@@ -69,7 +69,11 @@ The code offers a range of parameters which can be set:
 
 `--lambda-schedule` &mdash; Schedule for an adaptive lambda. `None` (static lambda) or `root` for a decreasing lambda.
 
+## Data
+Unfortunately, we are not allowed to share the data we used for our experiments due to privacy protection regulations. `data/example_file.tc` contains an examplary file. The feature extractor from Dr. Beinborn resulted in specific DKPro `.tc` files for which we wrote a separate reader as implemented in `readers.load_data()`. 
 
+To use your own data, you can adapt the reader to read sentences or documents where each token consists of a triple: `(token: str, label: int, features: numpy.array)`
+Don't forget to adapt the model in `train_model.py` accordingly to match the input dimensions.
 
 <!--
 ## Experiments

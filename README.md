@@ -1,4 +1,4 @@
-# Empowering Active Learning toJointly Optimize System and User Demands
+# Empowering Active Learning to Jointly Optimize System and User Demands
 ### Ji-Ung Lee, Christian M. Meyer, and Iryna Gurevych
 #### [UKP Lab, TU Darmstadt](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp)
 

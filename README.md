@@ -3,6 +3,10 @@
 #### [UKP Lab, TU Darmstadt](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp)
 
 Source code and user models from our experiments of our [ACL 2020 article](https://www.aclweb.org/anthology/2020.acl-main.390/). 
+Running the code here will train a model from scratch in a simulated interactive learning setup.
+At each iteration, a C-Test will be sampled and scored according to the proficiency of the current learner model.
+The model will then be updated on the newly scored sample and then used to sample the next C-Test.
+We provide a total of five different learner models, five different sampling strategies, and four different learner behaviours. 
 
 > **Abstract:** Existing approaches to active learning maximize the system performance by sampling unlabeled instances for annotation that yield the most efficient training. However, when active learning is integrated with an end-user application, this can lead to frustration for participating users, as they spend time labeling instances that they would not otherwise be interested in reading. In this paper, we propose a new active learning approach that jointly optimizes the seemingly counteracting objectives of the active learning system (training efficiently) and the user (receiving useful instances). We study our approach in an educational application, which particularly benefits from this technique as the system needs to rapidly learn to predict the appropriateness of an exercise to a particular user, while the users should receive only exercises that match their skills. We evaluate multiple learning strategies and user types with data from real users and find that our joint approach better satisfies both objectives when alternative methods lead to many unsuitable exercises for end users.
 

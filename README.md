@@ -3,6 +3,7 @@
 #### [UKP Lab, TU Darmstadt](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp)
 
 Source code and user models from our experiments of our [ACL 2020 article](https://www.aclweb.org/anthology/2020.acl-main.390/). 
+
 Running the code here will train a model from scratch in a simulated interactive learning setup.
 At each iteration, a C-Test will be sampled and scored according to the proficiency of the current learner model.
 The model will then be updated on the newly scored sample and then used to sample the next C-Test.
